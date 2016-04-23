@@ -62,7 +62,7 @@
     font-weight: 200;
   }
 
-  a:hover {
+  nav a:hover {
     background-color: #eee;
   }
 
@@ -152,7 +152,7 @@ min-width: 30%;
   margin: 5px 0;
 }
 
-.social-contact {
+.social-contact.large {
   align-self: center;
   flex: 0 1 auto;
   display: flex;
@@ -160,6 +160,9 @@ min-width: 30%;
   max-width: 100px;
 }
 
+.social-contact.small {
+  display: none;
+}
 .skill-ranking {
   display: flex;
   justify-content: space-between;
@@ -257,6 +260,7 @@ min-width: 30%;
 
     .main-section {
       margin: 3%;
+      margin-top: 0;
     }
     .main-section h3 {
       font-size:0.8em;
@@ -265,10 +269,27 @@ min-width: 30%;
       font-size: 0.7em;
     }
 
+    .main-section h3:first-child {
+      margin-top: 0;
+    }
     .skill{
       width: 7px;
       height: 7px;
     }
+
+    .social-contact.large {
+      display: none;
+    }
+    .social-contact.small {
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icon-wrapper{
+      margin-right: 3px;
+    }
+
+
   }
 </style>
   <script async src="https://cdn.ampproject.org/v0.js"></script>
