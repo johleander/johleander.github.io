@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-03-31 21:59:55 +0200
-categories: jekyll update
+tags: machine-learning python numpy scikit-learn
+date: 2015-01-01 13:08
+thumbnail: http://placehold.it/100x100
+title: Another Demo blog
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
