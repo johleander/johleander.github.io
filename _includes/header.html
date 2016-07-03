@@ -1,18 +1,4 @@
 <header class="site-header">
 
-      <a href="/" class="header-name">
-        <div>Johannes</div>
-        <div class="last-name">Leander</div>
-      </a>
-
-{% assign pages = site.pages | sort:"weight"  %}
-    <nav class="site-nav">
-        {% for my_page in pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-
-    </nav>
 
 </header>
