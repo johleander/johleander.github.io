@@ -1,31 +1,200 @@
 <head>
   <meta charset="utf-8">
   <title>Johannes Leander </title>
-  <link rel="canonical" href="http://johleander.github.io" />
+  <link rel="canonical" href="https://johleander.github.io" />
   <link rel="icon" href="profile.png">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,200' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   </script>
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
   <style amp-custom>
 
-  h1,h2 {
-    font-family: 'Open Sans';
-    text-align: center;
-    padding: 0 15%;
+  body {
+    background-color: #fefefe;
+    font-family: 'Work Sans';
 
   }
+  .wrapper {
+    padding:0 5%;
+  }
 
- a{
-   display: block;
-   font-family: 'Open Sans';
-   text-align: center;
+ .header {
+
+   margin-bottom: -20px;
  }
 
-  @media only screen and (max-width: 1024px) {}
+ .name{
+   color: #333;
+ }
 
-  @media only screen and (max-width: 685px) {}
+ .name span{
+   color: #aaa;
+ }
+
+.header-text {
+  margin-top: 15px;
+ border-bottom: 1px solid #ccc;
+}
+
+ .header-text h1 {
+    font-weight: 200;
+    color: #333;
+    text-align: center;
+    margin:0;
+ }
+ .header-text h2 {
+   font-size: 1em;
+   margin-top: 0;
+   color: #555;
+    font-weight: 200;
+    text-align: center;
+ }
+
+ .section-content  {
+   padding: 3%;
+   color: #555;
+   font-size: 0.8em;
+  border-bottom: 1px solid #aaa;
+  margin-top: 0;
+ }
+
+ .content {
+   display: flex;
+   flex-direction: column;
+ }
+
+.
+
+ nav ul {
+   margin: 0;
+ }
+
+ nav ul li {
+   list-style: none;
+   padding: 10px 5px;
+   border-bottom: 1px solid #ccc;
+   text-align: center;
+   color: #777;
+ }
+
+ nav a:link{
+   text-decoration: none;
+ }
+
+ nav a:visited {
+   color: #777;
+ }
+
+ nav:a:active {
+   background: #777;
+ }
+ nav ul li:nth-child(2n) {
+   border-left: 1px solid #ccc;
+ }
+ nav ul li:nth-child(2n+1) {
+   border-right: 1px solid #ccc;
+
+ }
+
+  .section-image {
+    margin: 20px auto 0 auto;
+    width: 217px;
+    height: 217px;
+  }
+
+ .skills-container {
+   margin: 2%;
+   height: 30px;
+   width: 80%;
+   border-radius: 5px;
+   color: white;
+   font-family: arial, sans-serif;
+   font-size: 12px;
+   box-sizing: border-box;
+   padding-top: 9px;
+   padding-left: 2%;
+ }
+
+#html5 {
+  background-image:
+  linear-gradient(
+    to right,
+    #797979,
+    #797979 85%,
+    #ddd 85%
+  );
+}
+
+
+#css3 {
+  background-image:
+  linear-gradient(
+    to right,
+    #797979,
+    #797979 80%,
+    #ddd 80%
+  );
+}
+
+
+#javascript{
+  background-image:
+  linear-gradient(
+    to right,
+    #797979,
+    #797979 77%,
+    #ddd 77%
+  );
+}
+
+
+#uiux{
+  background-image:
+  linear-gradient(
+    to right,
+    #797979,
+    #797979 70%,
+    #ddd 70%
+  );
+}
+
+#infoviz{
+  background-image:
+  linear-gradient(
+    to right,
+    #797979,
+    #797979 70%,
+    #ddd 70%
+  );
+}
+
+  @media only screen and (min-width: 690px) {
+     .header-text h1, .header-text h2 {
+       text-align:left;
+     }
+
+     .content {
+       flex-direction: row;
+       flex:1;
+       border-bottom: 1px solid #ccc;
+     }
+
+     .section-image {
+       align-self: center;
+
+     }
+     .section-content {
+       flex: 1;
+       border-bottom: 0;
+       align-self:center;
+       margin: 2%;
+     }
+
+     .content:nth-of-type(2n+1) .section-image {
+       /*order: 2; */
+     }
+  }
 
 
 
