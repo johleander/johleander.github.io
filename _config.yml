@@ -8,7 +8,7 @@
 # Site settings
 title: Johannes Leander
 email: johleander@gmail.com
-description: Johannes Leander is a software engineer with focus on UI/UX and Data Visualization. He holds a M.Sc. in Media Technology and likes to create intuitive and informative products. He is also interested in flags, their history and symbolism. 
+description: Johannes Leander is a software engineer with focus on UI/UX and Data Visualization. He holds a M.Sc. in Media Technology and likes to create intuitive and informative products. He is also interested in flags, their history and symbolism.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://johannesleander.com" # the base hostname & protocol for your site
 twitter_username: johleander
