@@ -1,1 +1,480 @@
-Under Construction 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johannes Leander | Frontend Architect</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="layout-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="profile-container">
+                    <img src="images/profile-placeholder.jpg" alt="Johannes Leander" class="profile-image">
+                    <p class="profile-name">Johannes Leander</p>
+
+                    <div class="social-icons">
+                        <a href="https://github.com/johleander" class="social-icon" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/johleander" class="social-icon" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:johannes.leander@outlook.com" class="social-icon">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="navigation">
+                <ul class="nav-menu">
+                    <li class="nav-item active" data-section="about">
+                        <i class="fas fa-user"></i>ABOUT
+                    </li>
+                    <li class="nav-item" data-section="experience">
+                        <i class="fas fa-briefcase"></i>EXPERIENCE
+                    </li>
+                   <!--  <li class="nav-item" data-section="projects">
+                        <i class="fas fa-project-diagram"></i>PROJECTS
+                    </li> -->
+                    <li class="nav-item" data-section="contact">
+                        <i class="fas fa-envelope"></i>CONTACT
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Social icons moved to profile container -->
+        </aside>
+
+        <main class="main-content">
+            <!-- About Section -->
+            <section id="about" class="section active">
+                <h1 class="section-heading">JOHANNES<span class="highlight">LEANDER</span></h1>
+                <p class="section-subtitle">Professional product developer with more than 10
+                    years of experience helping companies build digital software with a focus on intuitive user
+                    interfaces. Always striving to create value in the intersection of business, user experience and
+                    technology.</p>
+
+                <div class="card">
+                    <h3 style="margin-bottom: 1.2rem; color: var(--secondary-color);">My Background</h3>
+                    <p style="margin-bottom: 1rem; color: var(--light-text); line-height: 1.7;">With a Master's degree
+                        in Media Technology Engineering from Linköping University and over a decade of professional
+                        experience, I've developed a deep expertise in frontend development and architecture.</p>
+                    <p style="margin-bottom: 1rem; color: var(--light-text); line-height: 1.7;">Throughout my career,
+                        I've worked on a variety of projects ranging from clinical data visualization tools to mobility
+                        platforms and enterprise payroll systems. This diverse experience has given me a unique
+                        perspective on how to approach different technical challenges.</p>
+                </div>
+
+                <div style="margin-top: 2rem;">
+
+                    <div class="card">
+                        <h3 style="margin-bottom: 1.2rem; color: var(--secondary-color);">Personal Information</h3>
+                        <div
+                            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+                            <div>
+                                <p style="margin-bottom: 0.8rem;"><strong
+                                        style="color: var(--secondary-color);">Name:</strong> <span
+                                        style="color: var(--light-text);">Johannes Leander</span></p>
+                                <p style="margin-bottom: 0.8rem;"><strong
+                                        style="color: var(--secondary-color);">Location:</strong> <span
+                                        style="color: var(--light-text);">Lund, Sweden</span></p>
+                            </div>
+                            <div>
+                                <p style="margin-bottom: 0.8rem;"><strong style="color: var(--secondary-color);">Current
+                                        Role:</strong> <span style="color: var(--light-text);">Frontend Architect</span>
+                                </p>
+                                <p style="margin-bottom: 0.8rem;"><strong
+                                        style="color: var(--secondary-color);">Experience:</strong> <span
+                                        style="color: var(--light-text);">12+ Years</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 2rem;">
+                    <div class="card">
+                        <h3 style="margin-bottom: 1.2rem; color: var(--secondary-color);">Languages</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: 2rem;">
+                            <div>
+                                <p style="font-weight: 500; color: var(--secondary-color); margin-bottom: 0.5rem;">
+                                    Swedish</p>
+                                <div
+                                    style="width: 200px; height: 6px; background-color: rgba(30, 159, 209, 0.2); border-radius: 3px;">
+                                    <div
+                                        style="width: 100%; height: 100%; background-color: var(--primary-color); border-radius: 3px;">
+                                    </div>
+                                </div>
+                                <p style="font-size: 0.8rem; color: var(--light-text); margin-top: 0.3rem;">Native</p>
+                            </div>
+                            <div>
+                                <p style="font-weight: 500; color: var(--secondary-color); margin-bottom: 0.5rem;">
+                                    English</p>
+                                <div
+                                    style="width: 200px; height: 6px; background-color: rgba(30, 159, 209, 0.2); border-radius: 3px;">
+                                    <div
+                                        style="width: 95%; height: 100%; background-color: var(--primary-color); border-radius: 3px;">
+                                    </div>
+                                </div>
+                                <p style="font-size: 0.8rem; color: var(--light-text); margin-top: 0.3rem;">Fluent</p>
+                            </div>
+                            <div>
+                                <p style="font-weight: 500; color: var(--secondary-color); margin-bottom: 0.5rem;">
+                                    German</p>
+                                <div
+                                    style="width: 200px; height: 6px; background-color: rgba(30, 159, 209, 0.2); border-radius: 3px;">
+                                    <div
+                                        style="width: 70%; height: 100%; background-color: var(--primary-color); border-radius: 3px;">
+                                    </div>
+                                </div>
+                                <p style="font-size: 0.8rem; color: var(--light-text); margin-top: 0.3rem;">Professional
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="section">
+                <h1 class="section-heading">Work Experience</h1>
+                <p class="section-subtitle">My professional journey spans over a decade in software development,
+                    focusing on frontend architecture and leadership.</p>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="timeline-title">Frontend Architect</h3>
+                            <p class="timeline-company">Visma Enterprise AB, Malmö</p>
+                        </div>
+                        <span class="timeline-date">2023 - Present</span>
+                    </div>
+                    <div class="timeline-content">
+                        <p>Serving as frontend architect and team lead for a comprehensive payroll system. Responsible
+                            for technical direction, architecture decisions, and team guidance.</p>
+                        <div class="project-technologies" style="margin-top: 0.8rem;">
+                            <span class="tech-tag">Frontend Architecture</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Strategy</span>
+                            <span class="tech-tag">Management</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="timeline-title">Software Engineer</h3>
+                            <p class="timeline-company">Trivector Traffic, Lund</p>
+                        </div>
+                        <span class="timeline-date">2022 - 2023</span>
+                    </div>
+                    <div class="timeline-content">
+                        <p>Developed innovative applications for analyzing people travel patterns, integrating complex
+                            data visualization techniques with user-friendly interfaces.</p>
+                        <div class="project-technologies" style="margin-top: 0.8rem;">
+                            <span class="tech-tag">Mobile Development</span>
+                            <span class="tech-tag">Data Visualization</span>
+                            <span class="tech-tag">UX Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="timeline-title">Senior Product Engineer</h3>
+                            <p class="timeline-company">EC2B Mobility AB, Lund</p>
+                        </div>
+                        <span class="timeline-date">2022 - 2023</span>
+                    </div>
+                    <div class="timeline-content">
+                        <p>Led the development of a comprehensive Mobility-as-a-Service platform that transformed urban
+                            transportation solutions. Combined technical expertise with product design principles.</p>
+                        <div class="project-technologies" style="margin-top: 0.8rem;">
+                            <span class="tech-tag">Mobile Development</span>
+                            <span class="tech-tag">Product Management</span>
+                            <span class="tech-tag">Design Systems</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="timeline-title">Frontend Developer / Lead</h3>
+                            <p class="timeline-company">Capish International, Malmö</p>
+                        </div>
+                        <span class="timeline-date">2012 - 2022</span>
+                    </div>
+                    <div class="timeline-content">
+                        <p>Served as frontend lead for a sophisticated clinical data visualization tool. Directed the
+                            architecture and implementation of complex data visualization interfaces for healthcare
+                            professionals.</p>
+                        <div class="project-technologies" style="margin-top: 0.8rem;">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Data Visualization</span>
+                            <span class="tech-tag">Healthcare</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="timeline-title">Software Engineer / UI Developer</h3>
+                            <p class="timeline-company">Percepium, Lund</p>
+                        </div>
+                        <span class="timeline-date">2010 - 2012</span>
+                    </div>
+                    <div class="timeline-content">
+                        <p>Developed a comprehensive Learning Management System using Microsoft technologies. Created
+                            intuitive interfaces for educational content delivery and student management.</p>
+                        <div class="project-technologies" style="margin-top: 0.8rem;">
+                            <span class="tech-tag">Silverlight/WPF</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Education Tech</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 class="timeline-title">Developer</h3>
+                            <p class="timeline-company">Sogeti, Linköping</p>
+                        </div>
+                        <span class="timeline-date">2008 - 2010</span>
+                    </div>
+                    <div class="timeline-content">
+                        <p>Developed GIS tools for providing geographic data, creating solutions that visualized and
+                            processed spatial information for various stakeholders.</p>
+                        <div class="project-technologies" style="margin-top: 0.8rem;">
+                            <span class="tech-tag">Geographic Information System</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">WinForms</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <h1 class="section-heading">Projects</h1>
+                <p class="section-subtitle">A selection of projects I've worked on throughout my career, showcasing my
+                    expertise in frontend development and architecture.</p>
+
+                <div class="projects-grid">
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="section">
+                <h1 class="section-heading">EXPERIENCE</span></h1>
+                <p class="section-subtitle">A timeline of my professional journey and key roles I've held throughout my
+                    career.</p>
+                <div class="card">
+                    <div class="experience-header">
+                        <h3 class="experience-title">Senior Frontend Architect</h3>
+                        <div class="experience-date">2020 - Present</div>
+                    </div>
+                    <div class="experience-company">InnovateX Solutions, Stockholm</div>
+                    <div class="experience-content">
+                        <p>Leading the frontend architecture for enterprise-level applications, establishing best
+                            practices, and mentoring development teams. Responsible for technical decisions, code
+                            quality, and implementing scalable solutions.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="experience-header">
+                        <h3 class="experience-title">Lead Frontend Developer</h3>
+                        <div class="experience-date">2017 - 2020</div>
+                    </div>
+                    <div class="experience-company">TechForward AB, Stockholm</div>
+                    <div class="experience-content">
+                        <p>Oversaw the development of a healthcare data visualization platform. Led a team of 5
+                            developers, implemented CI/CD pipelines, and reduced page load times by 40% through
+                            optimization techniques.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="experience-header">
+                        <h3 class="experience-title">Frontend Developer</h3>
+                        <div class="experience-date">2014 - 2017</div>
+                    </div>
+                    <div class="experience-company">Digital Mobility Systems, Gothenburg</div>
+                    <div class="experience-content">
+                        <p>Developed user interfaces for urban mobility planning applications. Worked with mapping
+                            technologies, data visualization, and responsive design principles for both desktop and
+                            mobile platforms.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="experience-header">
+                        <h3 class="experience-title">UI Designer & Developer</h3>
+                        <div class="experience-date">2012 - 2014</div>
+                    </div>
+                    <div class="experience-company">CreativeMinds Studio, Linköping</div>
+                    <div class="experience-content">
+                        <p>Created interactive educational content and learning management systems. Designed user
+                            interfaces with a focus on usability and accessibility, particularly for educational
+                            applications.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <h1 class="section-heading">PROJECTS</span></h1>
+                <p class="section-subtitle">A selection of projects I've worked on throughout my career. These showcase
+                    my diverse skills and experience.</p>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/600x400/1e9fd1/ffffff?text=Enterprise+Payroll"
+                            alt="Enterprise Payroll System" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Enterprise Payroll System</h3>
+                            <p class="project-description">Comprehensive payroll management solution for large
+                                enterprises with complex organizational structures.</p>
+                            <div class="project-technologies">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">GraphQL</span>
+                                <span class="tech-tag">AWS</span>
+                            </div>
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/600x400/1e9fd1/ffffff?text=Clinical+Data"
+                            alt="Clinical Data Visualization" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Clinical Data Visualization</h3>
+                            <p class="project-description">Advanced visualization tools for clinical data analysis,
+                                enabling healthcare professionals to identify patterns and insights.</p>
+                            <div class="project-technologies">
+                                <span class="tech-tag">D3.js</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">REST API</span>
+                                <span class="tech-tag">Healthcare</span>
+                            </div>
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/600x400/1e9fd1/ffffff?text=Learning+System"
+                            alt="Learning Management System" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Learning Management System</h3>
+                            <p class="project-description">A comprehensive platform for educational content delivery,
+                                student management, and learning analytics.</p>
+                            <div class="project-technologies">
+                                <span class="tech-tag">Silverlight</span>
+                                <span class="tech-tag">C#</span>
+                                <span class="tech-tag">SQL Server</span>
+                                <span class="tech-tag">Education</span>
+                            </div>
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/600x400/1e9fd1/ffffff?text=Travel+Analytics"
+                            alt="Travel Analytics App" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Travel Pattern Analytics</h3>
+                            <p class="project-description">Mobile application for analyzing and visualizing people
+                                movement patterns in urban environments.</p>
+                            <div class="project-technologies">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Analytics</span>
+                                <span class="tech-tag">Data Processing</span>
+                                <span class="tech-tag">Visualization</span>
+                            </div>
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <h1 class="section-heading">CONTACT</span></h1>
+                <p class="section-subtitle">Feel free to reach out if you have any questions or would like to discuss
+                    potential collaboration.</p>
+
+
+                <div class="card">
+                    <h3 class="section-subheading">Contact Information</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p><a href="mailto:johannes.leander@outlook.com">johannes.leander@outlook.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Lund, Sweden</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="card" style="margin-top: 1.5rem;">
+                    <h3 class="section-subheading">Social Profiles</h3>
+                    <div class="social-profiles">
+                        <a href="https://github.com/johleander" target="_blank" class="social-profile-link">
+                            <div class="social-profile-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="social-profile-info">
+                                <h4>GitHub</h4>
+                                <p>github.com/johleander</p>
+                            </div>
+                        </a>
+
+                        <a href="https://linkedin.com/in/johleander" target="_blank" class="social-profile-link">
+                            <div class="social-profile-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div class="social-profile-info">
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/johleander</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
